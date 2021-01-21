@@ -1,0 +1,20 @@
+     For USER Table Creation: 
+
+  CREATE TABLE `e-bank`.`user` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(120) NOT NULL,
+  `email` VARCHAR(220) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  `address` VARCHAR(800) NOT NULL,
+  `contact` VARCHAR(45) NOT NULL,
+  `balance` DECIMAL(15,3) NOT NULL,
+  PRIMARY KEY (`id`));
+
+    For Admin Table Creation: 
+
+
+   CREATE TABLE `e-bank`.`admin` (
+   `name` VARCHAR(40) NOT NULL,
+   `email` VARCHAR(45) NOT NULL,
+    `password` VARCHAR(45) NOT NULL,
+   PRIMARY KEY (`email`));
