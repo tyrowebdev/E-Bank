@@ -12,7 +12,7 @@ public class UserLoginDAO {
 
 	private String jdbcURL = "jdbc:mysql://localhost:3306/e-bank";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "****";
 
 	private static final String CHECK_USER = " SELECT * FROM users  WHERE email = ? AND password = ? ;";
 	

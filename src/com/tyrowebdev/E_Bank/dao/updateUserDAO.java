@@ -11,7 +11,7 @@ public class updateUserDAO {
 
 	private String jdbcURL = "jdbc:mysql://localhost:3306/e-bank";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "****";
 
 	private static final String UPDATE_USERS_SQL = "UPDATE users SET name=?,email=?,address=?,contact=? WHERE id=? ; ";
 

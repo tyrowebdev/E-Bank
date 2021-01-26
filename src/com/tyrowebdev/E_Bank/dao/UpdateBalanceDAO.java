@@ -10,7 +10,7 @@ import com.tyrowebdev.E_Bank.model.Users;
 public class UpdateBalanceDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/e-bank";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "****";
 
 	private static final String UPDATE_BALANCE_SQL = "UPDATE users SET balance=? WHERE id=? ; ";
 

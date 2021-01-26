@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class AdminLoginDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/e-bank";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "****";
 
 	private static final String CHECK_USER = " SELECT * FROM admin  WHERE email = ? AND password = ? ;";
 	

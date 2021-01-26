@@ -12,7 +12,7 @@ public class deleteUserDAO {
 
 	private String jdbcURL = "jdbc:mysql://localhost:3306/e-bank";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "****";
 
 	private static final String DELETE_ID_USERS_SQL = "DELETE FROM users WHERE id =?;";
 

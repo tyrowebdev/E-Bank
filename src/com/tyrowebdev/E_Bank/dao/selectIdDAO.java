@@ -13,7 +13,7 @@ import com.tyrowebdev.E_Bank.model.Users;
 public class selectIdDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/e-bank";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "****";
 
 	private static final String SELECT_ID_USERS_SQL = "SELECT id,name,email,password,address,contact FROM users WHERE id =?;";
 

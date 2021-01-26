@@ -11,7 +11,7 @@ import com.tyrowebdev.E_Bank.model.Users;
 public class SelectEmailDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/e-bank";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "****";
 
 	private static final String SELECT_EMAIL_USERS_SQL = "SELECT id,name,email,password,address,contact,balance FROM users WHERE email =?;";
 

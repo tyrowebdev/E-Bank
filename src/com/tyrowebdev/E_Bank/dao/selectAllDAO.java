@@ -14,7 +14,7 @@ public class selectAllDAO {
 
 	private String jdbcURL = "jdbc:mysql://localhost:3306/e-bank";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "admin";
+	private String jdbcPassword = "****";
 
 	private static final String SELECT_ALL_USERS_SQL = "SELECT id,name,email,address,contact FROM users;";
 
